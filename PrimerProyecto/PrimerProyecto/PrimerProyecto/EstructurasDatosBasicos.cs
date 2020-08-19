@@ -123,6 +123,7 @@ namespace PrimerProyecto
             System.Collections.SortedList sortedlist = new SortedList();
 
             //TRABAJO 
+            // Tomado de: https://www.sgoliver.net/blog/estructuras-de-datos-en-c/
             //Part 1: An Introduction to Data Structures : https://docs.microsoft.com/en-us/previous-versions/ms379570(v=vs.80)?redirectedfrom=MSDN
             //Part 2: The Queue, Stack, and Hashtable : https://docs.microsoft.com/en-us/previous-versions/ms379571(v=vs.80)?redirectedfrom=MSDN
             //Part 3: Binary Trees and BSTs : https://docs.microsoft.com/en-us/previous-versions/ms379572(v=vs.80)?redirectedfrom=MSDN
