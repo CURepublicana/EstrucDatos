@@ -27,13 +27,13 @@ namespace PrimerProyecto
                 decimal decimal_monetario = 0;
                 //string Secuencia de Caracteres 16 bits por carácter No aplicable    string vest vest = "forty two";
                 string cadena = string.Empty;
-                //char Carácter único  16  Un único carácter   char grill; grill = 'x';
+                //char Carácter único  16Bytes/8= 2 Bit  Un único carácter   char grill; grill = 'x';
                 char caracter = 'A'; //ASCII 65
                                      //bool Booleanos   8   Verdadero ó Falso   bool teeth; teeth = false;
                 bool Booleanos = true; //true o false
                                        //aunque no es un tipo nativo, desde la versión del 2015, ya podemos determinar como 
                                        //tal la referencia determinada como var
-                var caracteres = new[] { 'O', 'S', 'C', 'A', 'R', 'D', 'O' };
+                var caracteres = new[] { 'O', 'S', 'C', 'A', 'R', 'D', 'O' }; //14 Bit 
 
                 numerico = 12;
                 numero_entero = 12233434;
