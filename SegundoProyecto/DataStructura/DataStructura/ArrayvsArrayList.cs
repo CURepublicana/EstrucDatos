@@ -10,7 +10,7 @@ namespace DataStructura
 	class ArrayvsArrayList
 	{
 
-		public static void Array_list(string[] args)
+		public void Array_Objetos()
 		{
 
 			// Crear una lista de cadedas 
@@ -27,7 +27,7 @@ namespace DataStructura
 			}
 		}
 		//aqui
-		public static void arreglo(string[] args)
+		public void Array_Nativa()
 		{
 			int[] arr = new int[4];
 

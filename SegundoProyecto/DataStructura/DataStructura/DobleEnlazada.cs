@@ -8,7 +8,7 @@ namespace DataStructura
 {
     public class DobleEnlazada
     {
-		static Node start;
+		Node start;
 
 		// La estructura de un nodo
 		public class Node
@@ -19,7 +19,7 @@ namespace DataStructura
 		};
 
 		// Función para insertar al final 
-		static void insertEnd(int value)
+		private void insertEnd(int value)
 		{
 			Node new_node;
 
@@ -58,7 +58,7 @@ namespace DataStructura
 
 		// Función para insertar el nodo al principio 
 		// de la Lista, 
-		static void insertBegin(int value)
+		private void insertBegin(int value)
 		{
 			// El puntero apunta al último nodo 
 			Node last = (start).prev;
@@ -81,7 +81,7 @@ namespace DataStructura
 		// Función para insertar el nodo con valor como valor1. 
 		// El nuevo nodo se inserta después del nodo con 
 		// con valor2 
-		static void insertAfter(int value1, int value2)
+		private void insertAfter(int value1, int value2)
 		{
 			Node new_node = new Node();
 			new_node.data = value1;
@@ -99,7 +99,7 @@ namespace DataStructura
 			next.prev = new_node;
 		}
 
-		static void display()
+		private void display()
 		{
 			Node temp = start;
 
@@ -123,7 +123,7 @@ namespace DataStructura
 		}
 
 		
-		public static void Main(String[] args)
+		public void Doble()
 		{
 			/* Empieza con la lista vacía */
 			Node start = null;

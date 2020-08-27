@@ -52,7 +52,7 @@ namespace DataStructura
             }
         }
 
-        static void Main(string[] args)
+        public void matriz()
         {
             Matriz5 ma = new Matriz5();
             ma.Cargar();

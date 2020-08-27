@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataStructura
 {
-    public class Array
+    public class ArregloCS
     {
-		public static void Main()
+		public void arreglo()
 		{
 
 			//declara un conjunto de números enteros. 

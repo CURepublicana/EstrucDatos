@@ -10,7 +10,7 @@ namespace DataStructura
     public class ArrayListDatos
     {
 
-		public static void Main()
+		public void Coleccion()
 		{
 
 			ArrayList Lista = new ArrayList();

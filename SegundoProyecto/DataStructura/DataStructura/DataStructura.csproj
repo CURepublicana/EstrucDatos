@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs" />
     <Compile Include="ArrayListDatos.cs" />
     <Compile Include="ArrayvsArrayList.cs" />
+    <Compile Include="ArregloCS.cs" />
     <Compile Include="DobleEnlazada.cs" />
     <Compile Include="Matriz5.cs" />
     <Compile Include="Program.cs" />
