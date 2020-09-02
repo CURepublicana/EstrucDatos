@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstrucDatosII", "EstrucDatosII\EstrucDatosII.csproj", "{D01D0F61-8E7D-4875-81B2-1FF76AE845DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01D0F61-8E7D-4875-81B2-1FF76AE845DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01D0F61-8E7D-4875-81B2-1FF76AE845DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01D0F61-8E7D-4875-81B2-1FF76AE845DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01D0F61-8E7D-4875-81B2-1FF76AE845DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF8BCFF9-5E7E-4E21-849A-95E9185E8541}
+	EndGlobalSection
+EndGlobal
