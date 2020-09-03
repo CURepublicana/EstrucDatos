@@ -14,10 +14,17 @@ namespace EstrucDatosII
             string palabra;
 
             Queue miCola = new Queue();
-            miCola.Enqueue("Hola ");
-            miCola.Enqueue("buenos ");
-            miCola.Enqueue("días.");
 
+            //Encolar
+            miCola.Enqueue("Maria"); //0
+            miCola.Enqueue("x"); //3
+            miCola.Enqueue("Karina"); //1
+            miCola.Enqueue("Daniel"); //2
+            miCola.Enqueue("y"); //4
+            miCola.Enqueue("z"); //5
+
+            // Console.WriteLine("Cabeza: " + miCola.Peek().ToString()); //Maria
+            
             //Peek: mira el valor de la cabeza pero sin extraer.
             //Clear: borra todo el contenido de la cola.
             //Contains: indica si un cierto elemento está en la cola.
@@ -26,9 +33,10 @@ namespace EstrucDatosII
             //ToArray.devuelve toda la cola convertida en un array.
             //GetEnumerator: permite usar enumeradores para recorrer la pila.
             //Count: indica cuantos elementos contiene.
-
-            for (byte i = 0; i < 3; i++)
+            //                         6
+            for (byte i = 0; i < miCola.Count; i++)
             {
+                //desencolar
                 palabra = (string)miCola.Dequeue();
                 Console.WriteLine(palabra);
             }

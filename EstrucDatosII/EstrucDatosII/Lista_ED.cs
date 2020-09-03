@@ -239,9 +239,9 @@ namespace EstrucDatosII
             lg.Intercambiar(1, 3);
             lg.Imprimir();
             if (lg.Existe(10))
-                Console.WriteLine("Se encuentra el 20 en la lista");
+                Console.WriteLine("Se encuentra en la lista");
             else
-                Console.WriteLine("No se encuentra el 20 en la lista");
+                Console.WriteLine("No se encuentra en la lista");
             Console.WriteLine("La posición del mayor es:" + lg.PosMayor());
             if (lg.Ordenada())
                 Console.WriteLine("La lista está ordenada de menor a mayor");
