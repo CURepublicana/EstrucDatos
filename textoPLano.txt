@@ -1,2 +1,2 @@
-textoPLano.txt 
+texto Plano.txt 
 este es el ejemplo....
