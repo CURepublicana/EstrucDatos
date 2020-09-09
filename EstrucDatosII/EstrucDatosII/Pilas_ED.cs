@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 // TADS fuertemente tipados
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +33,7 @@ namespace EstrucDatosII
             //ToArray.devuelve toda la pila convertida en un array.
             //GetEnumerator: permite usar enumeradores para recorrer la pila.
             //Count: indica cuantos elementos contiene
-            for (byte i = 0; i < miPila.Count ; i++)
+            for (int i = 0; i < 5; i++)
             {
                 palabra = (string)miPila.Pop();
                 Console.WriteLine(palabra);

@@ -34,7 +34,7 @@ namespace EstrucDatosII
             //GetEnumerator: permite usar enumeradores para recorrer la pila.
             //Count: indica cuantos elementos contiene.
             //                         6
-            for (byte i = 0; i < miCola.Count; i++)
+            for (byte i = 0; i < 6; i++)
             {
                 //desencolar
                 palabra = (string)miCola.Dequeue();

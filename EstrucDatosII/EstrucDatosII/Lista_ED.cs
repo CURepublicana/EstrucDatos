@@ -39,7 +39,7 @@ namespace EstrucDatosII
                     {
                         reco = reco.sig;
                     }
-                    reco.sig = nuevo;
+                    reco.sig = nuevo; //dato de Nodo 
                     nuevo.sig = null;
                 }
                 else
@@ -162,6 +162,8 @@ namespace EstrucDatosII
         {
             int cant = 0;
             Nodo reco = raiz;
+            //if (reco == null)
+            //cant = 0
             while (reco != null)
             {
                 reco = reco.sig;
